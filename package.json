@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint"
-},
-
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.608.0",
     "@aws-sdk/client-transcribe": "^3.606.0",
@@ -16,7 +15,7 @@
     "@ffmpeg/util": "^0.12.1",
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
-    "next": "14.2.4",
+    "next": "^14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "uniqid": "^5.4.0",
